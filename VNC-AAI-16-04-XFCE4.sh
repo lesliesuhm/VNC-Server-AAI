@@ -35,7 +35,7 @@ sudo -u $VNCUSER mv ~/.vnc/xstartup ~/.vnc/xstartup.bak
 sleep 1
 sudo -u $VNCUSER wget https://github.com/lesliesuhm/VNC-Server-AAI/blob/master/configs/xfce4_configs
 sleep 1
-sudo -u $VNCUSER mv ubuntu_16.04_VNC_Configs ~/.vnc/xstartup
+sudo -u $VNCUSER mv xfce4_configs ~/.vnc/xstartup
 sleep 1
 chmod +x ~/.vnc/xstartup
 sleep 1
