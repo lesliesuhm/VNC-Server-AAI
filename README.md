@@ -8,6 +8,8 @@ Currently for Ubuntu 16.04
 
 # How to use (VNC-AAI-16-04-XFCE4.sh) : 
 
+(CHANGE VNCUSER VARIABLE FIRST!)
+
 chmod +x VNC-AAI-16-04-XFCE4.sh
 
 sudo ./VNC-AAI-16-04-XFCE4.sh
