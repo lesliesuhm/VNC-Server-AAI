@@ -33,7 +33,7 @@ sudo -u $VNCUSER vncserver -kill :1
 sleep 1
 sudo -u $VNCUSER mv ~/.vnc/xstartup ~/.vnc/xstartup.bak
 sleep 1
-sudo -u $VNCUSER wget https://github.com/lesliesuhm/VNC-Server-AAI/blob/master/configs/xfce4_configs
+sudo -u $VNCUSER wget https://raw.githubusercontent.com/lesliesuhm/VNC-Server-AAI/master/configs/xfce4_configs
 sleep 1
 sudo -u $VNCUSER mv xfce4_configs ~/.vnc/xstartup
 sleep 1
@@ -47,7 +47,7 @@ echo "VNC Server Successfully Installed!"
 echo "Start VNC Server with the following command"
 sleep 1
 echo " "
-echo "          vncserver      "
+tput setaf 1; echo "          vncserver      "
 echo " "
 sleep 1
 echo " "
