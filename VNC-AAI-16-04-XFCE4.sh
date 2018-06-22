@@ -47,7 +47,7 @@ echo "VNC Server Successfully Installed!"
 echo "Start VNC Server with the following command"
 sleep 1
 echo " "
-tput setaf 1; echo "          vncserver      "
+echo "          vncserver      "
 echo " "
 sleep 1
 echo " "
