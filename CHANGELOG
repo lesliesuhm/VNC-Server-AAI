@@ -1,0 +1,9 @@
+List of all changes I have made to both scrIpts
+ 
+VNC-Server-AAI-XFCE:
+Removed the need for wget, you can now just clone it from Github and run the script. Commands should be listed in the README.md doc.
+Changed apt to apt-get to make it work on older *Buntu platforms, as well as new platforms.
+ 
+Uninstall-VNC-Server-AAI:
+Changed apt to apt-get to make it work on older *Buntu platforms, as well as new platforms.
+Changed the name of the script making it easier to distinguish while using tab to navigate.
