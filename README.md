@@ -14,10 +14,11 @@ View the [Changelog](../master/CHANGELOG) here.
 
 (CHANGE VNCUSER VARIABLE FIRST!)
 ```
-git clone https://github.com/lesliesuhm/VNC-Server-AAI.git && cd VNC-Server-AAI && chmod +x VNC-Server-AAI-XFCE4.sh
+git clone https://github.com/lesliesuhm/VNC-Server-AAI.git && cd VNC-Server-AAI
 ```
+# Change the VNCUSER varible with your perferred text editor, then run 
 ```
-sudo ./VNC-Server-AAI-XFCE4.sh
+chmod +x VNC-Server-AAI-XFCE4.sh && sudo ./VNC-Server-AAI-XFCE4.sh
 ```
 
 
