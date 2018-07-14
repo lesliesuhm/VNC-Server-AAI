@@ -2,29 +2,29 @@
 
 Installs VNC Server (Almost) Completely, all you need to do is enter a VNC password.
 
-Currently for Ubuntu 16.04
+Currently for Ubuntu 14.04, and any newer versions (as of 18.04).
 
 XFCE4 will run on lightweight VPS boxes smoothly. 
 
 I have ran it on as little as 128MB ram and single shared CPU.
 
+View the [Changelog](../blob/master/CHANGELOG) here.
 
-# How to use (VNC-AAI-16-04-XFCE4.sh) : 
+# How to use (VNC-Server-AAI-XFCE4.sh): 
 
 (CHANGE VNCUSER VARIABLE FIRST!)
 ```
-chmod +x VNC-AAI-16-04-XFCE4.sh
+git clone https://github.com/lesliesuhm/VNC-Server-AAI.git && cd VNC-Server-AAI && chmod +x VNC-Server-AAI-XFCE4.sh
 ```
 ```
-sudo ./VNC-AAI-16-04-XFCE4.sh
+sudo ./VNC-Server-AAI-XFCE4.sh
 ```
 
-# How to use (VNC-AAI-Uninstall-16-04-XFCE4.sh)
+
+
+# How to use (Uninstall-VNC-Server-AAI.sh):
 ```
-chmod +xVNC-AAI-Uninstall-16-04-XFCE4.sh
-```
-```
-sudo ./VNC-AAI-Uninstall-16-04-XFCE4.sh
+chmod +x Uninstall-VNC-Server-AAI.sh && sudo ./Uninstall-VNC-Server-AAI.sh
 ```
 
 # All Credits to Leslie Suhm
