@@ -14,7 +14,7 @@ View the [Changelog](../master/CHANGELOG) here.
 ```
 git clone https://github.com/lesliesuhm/VNC-Server-AAI.git && cd VNC-Server-AAI
 ```
-### Change the VNCUSER varible inside VNC-Server-AAI-XFCE4.sh to the current user with your perferred text editor, then run 
+##### Change the VNCUSER varible inside VNC-Server-AAI-XFCE4.sh to the current user with your perferred text editor, then run 
 ```
 chmod +x VNC-Server-AAI-XFCE4.sh && sudo ./VNC-Server-AAI-XFCE4.sh
 ```
