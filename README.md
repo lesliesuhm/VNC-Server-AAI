@@ -8,7 +8,7 @@ XFCE4 will run on lightweight VPS boxes smoothly.
 
 I have ran it on as little as 128MB ram and single shared CPU.
 
-View the [Changelog](../blob/master/CHANGELOG) here.
+View the [Changelog](../master/CHANGELOG) here.
 
 # How to use (VNC-Server-AAI-XFCE4.sh): 
 
