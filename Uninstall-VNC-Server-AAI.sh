@@ -1,7 +1,10 @@
-# Uninstall Script for VNC Server AAI 16.04 XFCE4
-# Use if you forget to put the name variable 
-# Run as sudo and ./
-# 
+#!/bin/sh
+# Uninstall Script for VNC Server AAI XFCE
+# Use if you forget to put the name variable or run as non-sudo
+# Run with sudo ./
+#
+#
+# This is the second version of this script, see CHANGELOG for all of the changes I have made.
 #
 #---------------DO NOT EDIT BELOW THIS LINE--------------------
 echo "Warning: Will remove all VNC Packages"
@@ -34,17 +37,16 @@ echo "1"
 sleep 1
 echo "Uninstalling all VNC packages"
 sleep 3
-apt -y remove xfce4 xfce4-goodies tightvncserver 
+apt-get -y remove xfce4 xfce4-goodies tightvncserver
 sleep 1
-apt -y purge xfce4 xfce4-goodies tightvncserver 
+apt-get -y purge xfce4 xfce4-goodies tightvncserver
 sleep 1
-apt -y autoremove
+apt-get -y autoremove
 sleep 1
 echo "VNC-AAI-16-04-XFCE4.sh has successfully been uninstalled"
 sleep 1
 echo "All credit to Leslie Suhm!"
 sleep 1
 echo "Check us out at Github!"
-sleep 1 
+sleep 1
 echo "https://github.com/lesliesuhm/VNC-Server-AAI"
-
