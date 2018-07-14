@@ -11,12 +11,10 @@ I have ran it on as little as 128MB ram and single shared CPU.
 View the [Changelog](../master/CHANGELOG) here.
 
 # How to use (VNC-Server-AAI-XFCE4.sh): 
-
-(CHANGE VNCUSER VARIABLE FIRST!)
 ```
 git clone https://github.com/lesliesuhm/VNC-Server-AAI.git && cd VNC-Server-AAI
 ```
-# Change the VNCUSER varible with your perferred text editor, then run 
+### Change the VNCUSER varible with your perferred text editor, then run 
 ```
 chmod +x VNC-Server-AAI-XFCE4.sh && sudo ./VNC-Server-AAI-XFCE4.sh
 ```
