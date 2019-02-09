@@ -1,5 +1,7 @@
 # VNC Server Almost Automatic Installation
 
+(Still fully functional as of February 9th, 2019)
+
 Installs VNC Server (Almost) Completely, all you need to do is enter a VNC password.
 
 Currently for Ubuntu 14.04, and any newer versions (as of 18.04).
